@@ -3,6 +3,7 @@ class DevramaLazyloadImagesAppDefaultController extends DevramaWordpressMVCInit 
 	
 	public function __construct(){
 		parent::__construct(get_class($this), __DIR__);
+		wp_enqueue_script( 'jquery');
 	}
 	
 	//Define abstract class enqueueScripts

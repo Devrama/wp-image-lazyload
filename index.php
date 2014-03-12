@@ -1,11 +1,15 @@
 <?php
 /**
  * @package Devrama Lazyload Images
+ *
+ * Plugin Name: Devrama Lazyload Images
+ * Plugin URI: http://wordpress.org/plugins/devrama-image-lazyload/
+ * Description: Devrama Image Lazyload loads images in the content of your post as you scroll down. It makes the page load faster and reduce server traffic.
+ * Version: 0.9.33
+ * Author: calmgracian
+ * Author URI: http://devrama.com/
+ * License: MIT License
  */
-/*
-Plugin Name: Devrama Lazyload Images
-Author: WON JONG YOO
-*/
 
 require_once(plugin_dir_path(__FILE__).'config.php');
 if(!class_exists('DevramaWordpressMVC'))
