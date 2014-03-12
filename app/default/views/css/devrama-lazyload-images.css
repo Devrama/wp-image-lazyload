@@ -1,0 +1,36 @@
+/*
+DEVRAMA LAZYLOAD IMAGES PAGE
+*/
+	
+table.devrama-lazyload-images-form {
+	margin-top: 40px;
+	border: none;
+	border-collapse:collapse;
+	width: 800px;
+	font-size: 17px;
+	font-size: 1.21428571rem;
+	color: #000;
+	font-family: 'Cinzel', serif;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+	font-size: 18px;
+	font-size: 1.285714286rem;
+	line-height: 1.6;
+}
+
+	table.devrama-lazyload-images-form tr td {
+		border: none;
+		vertical-align: top;
+	}
+	
+	table.devrama-lazyload-images-form tr td.left {
+		width: 445px;
+	}
+	
+	table.devrama-lazyload-images-form tr td.left input {
+		width: 100%;
+	}
+
+	table.devrama-lazyload-images-form tr td.right textarea {
+		width: 100%;
+		min-height: 100px;
+	}
